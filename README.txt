@@ -33,3 +33,18 @@ Credits:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+Versioning:
+
+#1.0.2
+
+-refactor code (main-page)
+
+#1.0.1
+
+-added achievements
+
+#1.0.0
+
+-main initialization
