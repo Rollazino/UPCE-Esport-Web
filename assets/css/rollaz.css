@@ -4286,6 +4286,7 @@ input, select, textarea {
 
 .tag.green {
   background: #00c853;
+  color: black;
 }
 
 .achievement-card h3 {
@@ -4302,3 +4303,26 @@ input, select, textarea {
   padding: 0 1rem 1rem 1rem;
   margin: 0;
 }
+
+.tag.blue { /* Rocket */
+  background-color: #2196f3;
+}
+
+.tag.yellow { /* CSKO */
+  background-color: #e5d935;
+  color: black;
+}
+
+.tag.purple { /* LOLKO */
+  background-color: #9c27b0;
+}
+
+/* Generic tag style already defined earlier */
+.tag {
+  background: #333;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
