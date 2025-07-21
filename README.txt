@@ -37,6 +37,10 @@ Credits:
 
 Versioning:
 
+#1.0.3
+- completed "achievements" page
+- fixed a bug in main.css where clickable links were dotted
+
 #1.0.2
 
 -refactor code (main-page)
