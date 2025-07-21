@@ -121,7 +121,6 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: #e44c65;
 		text-decoration: none;
 	}
@@ -3150,15 +3149,15 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			border-color: #ed1c24;
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #ed1c24;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #ed1c24;
 		}
 
 		.spotlight.inactive .content {
