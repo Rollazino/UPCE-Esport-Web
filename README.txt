@@ -37,6 +37,9 @@ Credits:
 
 Versioning:
 
+#1.0.6
+- refactor widget width
+
 #1.0.5
 - added a Discord widget to main page
 
