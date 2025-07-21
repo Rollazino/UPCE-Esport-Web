@@ -7,6 +7,11 @@
   padding-bottom: 0.5rem;
 }
 
+.achievement-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .achievement-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -43,16 +48,25 @@
 }
 
 .tag {
-  background: #333;
+  display: inline-block; /* or inline-flex for more control */
   padding: 0.25rem 0.5rem;
   border-radius: 6px;
   font-size: 0.75rem;
   text-transform: uppercase;
+  background: #333;
+  color: #fff;
+  text-decoration: none; /* prevent underline on links */
+  white-space: nowrap;
 }
 
 .tag.gold {
-  background: gold;
+  background: rgb(255, 215, 0);
   color: black;
+}
+
+.tag.upce {
+  background: rgb(172, 17, 22);
+  color: white;
 }
 
 .tag.bronze {
