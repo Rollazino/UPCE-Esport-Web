@@ -37,7 +37,14 @@ Credits:
 
 Versioning:
 
+#1.0.5
+- added a Discord widget to main page
+
+#1.0.4
+- fixed page titles
+
 #1.0.3
+
 - completed "achievements" page
 - fixed a bug in main.css where clickable links were dotted
 

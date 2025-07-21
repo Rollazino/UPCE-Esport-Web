@@ -3545,6 +3545,7 @@ input, select, textarea {
 		background: #272833;
 		padding: 6em 0;
 		text-align: center;
+		position: relative;
 	}
 
 		#footer .icons .icon.alt {
@@ -3595,6 +3596,7 @@ input, select, textarea {
 				#footer .copyright li a {
 					color: inherit;
 				}
+
 
 /* XLarge */
 
