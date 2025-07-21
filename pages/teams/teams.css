@@ -89,3 +89,44 @@
   display: block;
   margin: 0 auto;
 }
+
+/* Responsive adjustments */
+@media screen and (max-width: 980px) {
+  .player-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+  .player-card .overlay {
+    font-size: 0.95rem;
+    padding: 0.5rem;
+  }
+  .player-card .overlay h3 {
+    font-size: 1rem;
+  }
+  .player-card .overlay p {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .player-gallery {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    padding: 1rem 0;
+  }
+  .player-card {
+    font-size: 0.95em;
+  }
+  .game-csko img,
+  .game-lolko img,
+  .game-rocket img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 4px;
+  }
+  .player-card .overlay {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+}
