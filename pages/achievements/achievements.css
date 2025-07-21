@@ -1,3 +1,22 @@
+.head-logo img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 10px auto 0 auto; /* Reduced top margin */
+}
+
+.head-logo h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #fff;
+  margin-top: 0; /* Remove extra top margin */
+  font-weight: 700;
+}
+
+.wrapper { /* Removes the space between the logo and the header */
+  padding: 0px;
+}
+
 .achievement-section h2 {
   font-size: 1.8rem;
   margin-top: 2rem;
