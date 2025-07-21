@@ -4286,6 +4286,7 @@ input, select, textarea {
 
 .tag.green {
   background: #00c853;
+  color: black;
 }
 
 .achievement-card h3 {
