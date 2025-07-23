@@ -3603,6 +3603,18 @@ body.landing #header {
   z-index: 21;
 }
 
+#banner header ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* mezera mezi ikonami */
+  padding-left: 0;
+}
+
+#banner header ul li {
+  list-style: none;
+}
+
+
 #banner:before {
   content: "";
   display: inline-block;
@@ -4339,13 +4351,6 @@ body.is-touch #banner {
 
 #footer .copyright img {
   max-width: 100px;
-}
-
-.twitch-embed {
-  margin-top: 15px;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .offline-message {
