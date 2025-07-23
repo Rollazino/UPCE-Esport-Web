@@ -1,3 +1,7 @@
+.head-logo {
+  line-height: 1px;
+}
+
 .head-logo img {
   width: 400px;
   height: auto;
@@ -5,9 +9,16 @@
   margin: 10px auto 0 auto; /* Reduced top margin */
 }
 
+.head-logo p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 100;
+}
+
 .head-logo h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #fff;
   margin-top: 0; /* Remove extra top margin */
   font-weight: 700;
@@ -15,6 +26,7 @@
 
 .wrapper { /* Removes the space between the logo and the header */
   padding: 0px;
+  margin-bottom: 70px;;
 }
 
 .achievement-section h2 {
@@ -36,6 +48,7 @@
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 1.5rem;
   margin-left: 50px;
+  margin-top: 25px;
 }
 
 .achievement-card {
