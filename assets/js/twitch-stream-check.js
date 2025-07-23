@@ -39,7 +39,7 @@ async function checkStreamStatus() {
     link.style.display = 'inline';
     console.log("User is LIVE – showing logo.");
   } else {
-    link.style.display = 'none';
+    link.style.display = 'images/offline.png'; // or your own path
     console.log("User is OFFLINE – hiding logo.");
   }
 }
