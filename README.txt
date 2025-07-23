@@ -1,5 +1,8 @@
 Versioning:
 
+#1.0.8
+- bugfixed (Week 3 07/2025)
+
 #1.0.7
 - cleaned Versioning
 - refreshed main page and its content
