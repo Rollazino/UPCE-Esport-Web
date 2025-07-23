@@ -76,6 +76,21 @@
   margin: 0 auto;
 }
 
+.game-upce img {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.game-upce h2 {
+  width: 20%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  font-weight: 500;;
+}
+
 .game-lolko img {
   width: 16%;
   height: auto;
