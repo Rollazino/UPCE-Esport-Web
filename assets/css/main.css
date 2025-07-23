@@ -3816,7 +3816,7 @@ body.is-touch #banner {
   }
 }
 
-  #banner header ul {
+#banner header ul {
   display: flex;
   justify-content: right;
   gap: 1rem; /* mezera mezi ikonami */
@@ -4230,7 +4230,7 @@ body.is-touch #banner {
 
 /* XSmall */
 
- @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   /* Basic */
 
   html,
@@ -4276,69 +4276,85 @@ body.is-touch #banner {
     padding: 3em 1.5625em 5.25em 1.5625em;
   }
 
+  /* Footer */
 
-/* Footer */
+  #footer {
+    padding: 3em 1.25em;
+  }
 
-#footer {
-  padding: 3em 1.25em;
+  #footer .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer .copyright li {
+    position: relative;
+    padding: 0 15px; /* Adjust horizontal padding as needed */
+  }
+
+  #footer .copyright img {
+    max-width: 100px;
+  }
+
+  #footer .copyright li::before {
+    content: "|";
+    position: absolute;
+    left: 0;
+    color: rgba(255, 255, 255, 0.3); /* Adjust color as needed */
+  }
+
+  #footer .copyright li:first-child::before {
+    content: none; /* Removes the first divider */
+  }
+
+  /* Footer */
+
+  #footer {
+    padding: 3em 1.25em;
+  }
+
+  #footer .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer .copyright li {
+    position: relative;
+    padding: 0 15px; /* Adjust horizontal padding as needed */
+  }
+
+  #footer .copyright li::before {
+    content: "|";
+    position: absolute;
+    left: 0;
+    color: rgba(255, 255, 255, 0.3); /* Adjust color as needed */
+  }
+
+  #footer .copyright li:first-child::before {
+    content: none; /* Removes the first divider */
+  }
 }
-
-#footer .copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#footer .copyright li {
-  position: relative;
-  padding: 0 15px; /* Adjust horizontal padding as needed */
-}
-
 
 #footer .copyright img {
   max-width: 100px;
 }
 
-#footer .copyright li::before {
-  content: "|";
-  position: absolute;
-  left: 0;
-  color: rgba(255,255,255,0.3); /* Adjust color as needed */
+.twitch-embed {
+  margin-top: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-#footer .copyright li:first-child::before {
-  content: none; /* Removes the first divider */
-}
-
-/* Footer */
-
-#footer {
-  padding: 3em 1.25em;
-}
-
-#footer .copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#footer .copyright li {
-  position: relative;
-  padding: 0 15px; /* Adjust horizontal padding as needed */
-}
-
-#footer .copyright li::before {
-  content: "|";
-  position: absolute;
-  left: 0;
-  color: rgba(255,255,255,0.3); /* Adjust color as needed */
-}
-
-#footer .copyright li:first-child::before {
-  content: none; /* Removes the first divider */
-}
-}
-
-#footer .copyright img {
-  max-width: 100px;
+.offline-message {
+  margin-top: 15px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
