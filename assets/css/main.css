@@ -3603,6 +3603,18 @@ body.landing #header {
   z-index: 21;
 }
 
+#banner header ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* mezera mezi ikonami */
+  padding-left: 0;
+}
+
+#banner header ul li {
+  list-style: none;
+}
+
+
 #banner:before {
   content: "";
   display: inline-block;
@@ -3814,6 +3826,17 @@ body.is-touch #banner {
   #footer {
     padding: 4.5em 0;
   }
+}
+
+#banner header ul {
+  display: flex;
+  justify-content: right;
+  gap: 1rem; /* mezera mezi ikonami */
+  padding-left: 0;
+}
+
+#banner header ul li {
+  list-style: none;
 }
 
 /* Medium */
@@ -4355,9 +4378,21 @@ body.is-touch #banner {
 
 .icon-contact:hover {
   color: #e44c65;
+
 }
 
 .contact-divider {
   font-size: 1.2em;
   margin: 0 0.5rem;
+}
+
+.offline-message {
+  margin-top: 15px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
