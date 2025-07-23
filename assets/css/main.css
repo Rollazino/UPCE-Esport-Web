@@ -3816,6 +3816,17 @@ body.is-touch #banner {
   }
 }
 
+  #banner header ul {
+  display: flex;
+  justify-content: right;
+  gap: 1rem; /* mezera mezi ikonami */
+  padding-left: 0;
+}
+
+#banner header ul li {
+  list-style: none;
+}
+
 /* Medium */
 
 @media screen and (max-width: 980px) {
