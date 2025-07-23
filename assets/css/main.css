@@ -4353,6 +4353,39 @@ body.is-touch #banner {
   max-width: 100px;
 }
 
+.contact-icons {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.contact-icons img {
+  width: 100px;
+  transition: transform 0.2s ease;
+  border-radius: 50%;
+}
+
+.icon-contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.icon-contact:hover {
+  color: #e44c65;
+
+}
+
+.contact-divider {
+  font-size: 1.2em;
+  margin: 0 0.5rem;
+}
+
 .offline-message {
   margin-top: 15px;
   padding: 20px;
